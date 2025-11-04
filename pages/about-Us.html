@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+       
+ <!-- header -->
+     <header class="bg-[#0D0D0D] h-20 flex justify-center items-center">
+        <div class="w-full max-w-7xl flex justify-between items-center gap-16 px-10" >
+            <a href="../index.html" class="flex w-[306px] h-20 justify-start items-center border-[#252525] lg:border-[0px_2px_0px_0px]">
+         
+                <img class="inline-block " src="/Logo.svg" width="132px" height="26px" alt="" aria-hidden="true">
+            </a>
+            <div class="absolute top-0 left-0 py-10 gap-[50px] w-full flex flex-col justify-between items-center bg-[#0d0d0d] transform-[translateY(-100%)] transition-all duration-500  z-1 lg:z-[1] lg:flex lg:static lg:py-0 lg:flex-row lg:transform-[translateY(-0%)] lg:gap-0 lg:z-30 lg:duration-[0s]" id="togglerMenu">
+            <nav class="text-white text-[16px] uppercase tracking-[0px] flex gap-[50px] flex-col text-center lg:flex-row">
+                <a href="../index.html" target="_blank" class="transition-colors duration-300 hover:text-[#FFD2A4]">home</a>
+                <a href="../pages/about-Us.html" target="_blank" class="transition-colors duration-300 hover:text-[#FFD2A4]">about us</a>
+                <a href="../pages/sermon.html" target="_blank" class="transition-colors duration-300 hover:text-[#FFD2A4]">sermon</a>
+                <a href="../pages/blog.html" target="_blank" class="transition-colors duration-300 hover:border-b-2 border-[#FFD2A4] hover:text-[#FFD2A4]">blog</a>
+            </nav>
+            <a href="../pages/contact.html" target="_blank" class="uppercase bg-[#FFD2A4] text-[16px] text-[#1C1D28] rounded-xl h-14 w-[180px] flex justify-center items-center transition-opacity duration-300 hover:opacity-[0.8]">
+                Contact Us
+            </a>
+            </div>
+            <label for="toggler" class="flex items-center justify-center p-[6px_8px] bg-[#FFD2A4] text-[#1c1d28] text-[22px] lg:hidden rounded-sm">
+                <input type="checkbox" id="toggler" class="hidden" onclick="toggler(this)">
+                <span class="fa fa-bars"></span>
+            </label>
+            <label for="toggler" class="fixed w-full h-full top-0 left-0 transform-[translateY(-100%)] transition-all duration-500" id="togglerBg">
+                <div class="block bg-[#0d0d0d] opacity-[0.5] h-full w-full"></div>
+            </label>
+        </div>
+     </header>
+
+<main>
+    <!-- Hero  -->
+     <section class="  bg-[url('../img/hero-about.png')] bg-cover bg-no-repeat bg-center h-screen">
+        <di>
+            <h5 class=" font-bold uppercase pl-[110px] pt-40 pb-4">
+                About Us 
+            </h5>
+            <h1 class="  pl-[110px] text-[80px] font-bold uppercase">
+                Serving the world around us
+            </h1>
+        </div>
+     </section>
+
+     <section>
+            <div class="flex justify-center items-center flex-col text-[#161722]">
+        <p class="mb-4 pt-32 uppercase">Welcome to our CHURCH</p>
+        <h2 class="mb-8 font-bold text-[48px] uppercase">Love and compassion</h2>
+        <p class="mb-14 text-center">A church that is relevant is a church that understands the world we live in today. It is not stuck only in old traditions,  but it brings the truth of God into modern life <br> in a way that people can connect with,  understand, and apply. A relevant church speaks the language of the people, <br> uses methods and tools that make sense today, and addresses the real questions people have <br> ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br> reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="flex justify-center">
+            <img class="mr-6 w-[293px] h-96" src="../img/humans/boy.jpg" alt="rasm">
+            <img class="mr-6 mt-12 w-[390px] h-[512px]"
+                src="../img/humans/boy.women.png" alt="rasm">
+            <img class="w-[293px] h-96" src="../img/humans/granddmother.png" alt="rasm">
+        </div>
+        <div class="flex gap-6">
+            <div class="max-w-[372px]  mt-16 mb-32">
+             
+            <p class="mb-4  uppercase">
+                OUR MISSIOn & Vision
+            </p>
+            <h3 class="mb-6 font-bold text-[32px] uppercase">
+                STRIVING FOR A BETTER TOMORROW
+            </h3>
+            <p>
+                Striving for a better tomorrow means working today with hope, purpose, and commitment to <br> create a brighter future. It is about improving ourselves, helping others, and making <br> positive changes step by step. Every action, even small, can bring progress.
+            </p>
+        </div>
+        <div class="max-w-[372px]  mt-16 mb-32">
+            <p class="mb-4  uppercase">
+                WHAT WE DO
+            </p>
+            <h3 class="mb-6 font-bold text-[32px] uppercase">
+                BRINgING PEACE AND JOY TO THE WORLD
+            </h3>
+            <p>
+                Bringing peace and joy to the world means sharing kindness, love, and understanding with others. It’s about creating harmony, supporting people in difficult moments, and spreading positivity wherever we go. When we bring peace and joy, we help make the world a better place — one heart at a time.
+            </p>
+        </div>
+        </div>
+    </div>
+     </section>
+
+
+
+      <section class="mt-[128px] w-auto">
+        <div class="flex flex-col justify-center items-center uppercase">
+          <p>BENEFITS</p>
+          <h2 class="font-bold text-[48px] pt-[16px]">
+            <span class="pl-[30px]">THE benefits of</span> <br />
+            joining our church
+          </h2>
+        </div>
+        <div
+          class="flex justify-center items-center flex-col pt-[64px] gap-[24px] w-auto"
+        >
+          <div class="flex justify-center items-center">
+            <div class="flex flex-col pr-[24px]">
+              <h4 class="font-bold text-[32px] uppercase">
+                find fulfillment and joy
+              </h4>
+              <p class="pt-[16px]">
+                Discover a place where you can grow spiritually, connect with
+                others, <br />
+                and find true purpose. Our community offers a supportive
+                environment <br />
+                to explore your faith, serve those in need, and <br />
+                experience the abundant joy that comes from <br />
+                a relationship with God.
+              </p>
+            </div>
+            <img src="../img/about/boy.png" alt="find fullment and joy" />
+          </div>
+          <div class="flex justify-center items-center mt-[96px]">
+            <img src="../img/about/book.png" alt="share value" />
+            <div class="flex-col pl-[24px]">
+              <h4 class="font-bold text-[32px] uppercase">shared values</h4>
+              <p class="pt-[16px]">
+                We are united by a common commitment to compassion, <br />
+                integrity, and service. Our foundational beliefs guide <br />
+                us to love God and our neighbors, seek justice, <br />
+                and practice kindness in all aspects of our lives, <br />
+                creating a harmonious and purposeful existence together.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center mt-[96px]">
+            <div class="flex-col pr-[24px]">
+              <h4 class="font-bold text-[32px] uppercase">charity events</h4>
+              <p class="pt-[16px]">
+                Join us in making a tangible difference through <br />
+                our ongoing charity initiatives and community <br />
+                outreach programs. From food drives to volunteer work, <br />
+                every event is an opportunity to extend God's love and support
+                to <br />
+                those who are most vulnerable in our society.
+              </p>
+            </div>
+            <img src="../img/about/boyss.png" alt="charity event" />
+          </div>
+          <div class="flex justify-center items-center mt-[96px]">
+            <img src="../img/about/famliy.png" alt="all are welcome" />
+            <div class="flex-col pl-[24px]">
+              <h4 class="font-bold text-[32px] uppercase">All are welcome</h4>
+              <p class="pt-[16px]">
+                Regardless of your background, where you've been, <br />
+                or what you believe, you are invited to be <br />
+                a part of our family. We celebrate diversity and offer an <br />
+                safe, inclusive space for everyone to explore their faith <br />
+                journey and experience unconditional acceptance and belonging.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="pt-32">
+          <div >
+            <p class=" text-center uppercase">church members</p>
+            <h2 class="font-bold text-center text-[40px]  uppercase">meet our Inspirational team</h2>
+            <ul class="flex gap-6 justify-center flex-wrap mt-16 mb-32"> 
+              <li class="bg-[#F5F2F0] p-6 rounded-xl shadow-sm text-center w-[302px] min-h-[366px]">
+                <img src="../img/about/bowen.png" alt="rasm" />
+                    <h3 class="mt-4 font-bold text-gray-900">Kim Bowen</h3>
+                    <p class="text-sm text-gray-500 mb-3">Pastor, Church</p>
+                <div>
+                 <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+              </li>
+              <li class="bg-[#F5F2F0] p-6 rounded-xl shadow-sm text-center w-[302px] min-h-[366px]">
+                <img src="../img/about/watkins.png" alt="rasm" />
+                <h3 class="mt-4 font-bold text-gray-900">Danielle Watkins</h3>
+                <p class="text-sm text-gray-500 mb-3">Pastor, Church</p>
+                <div>
+                  <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+              </li>
+              <li class="bg-[#F5F2F0] p-6 rounded-xl shadow-sm text-center w-[302px] min-h-[366px]">
+                <img src="../img/about/naomi.png" alt="rasm" />
+                <h3 class="mt-4 font-bold text-gray-900">Naomi Craig</h3>
+                <p class="text-sm text-gray-500 mb-3">Pastor, Church</p>
+                <div>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+              </li>
+              <li class="bg-[#F5F2F0] p-6 rounded-xl shadow-sm text-center w-[302px] min-h-[366px]">
+                <img src="../img/about/paynie.png" alt="rasm" />
+                <h3 class="mt-4 font-bold text-gray-900">Santos Payne</h3>
+                <p class="text-sm text-gray-500 mb-3">Pastor, Church</p>
+                <div>
+                     <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-[#000000]">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+</main>
+     <!-- Footer  -->
+      <footer
+      class="bg-[#1C1D28] text-white flex justify-center items-center py-12"
+    >
+      <div
+        class="max-w-[1280px] flex flex-col items-center sm:items-start w-full gap-5 sm:grid sm:grid-cols-5 sm:flex justify-between lg:gap-[50px] px-10"
+      >
+        <ul class="text-[12px] uppercase flex flex-col gap-4 lg:gap-[36px]">
+          <li>
+            <a href="#" class="flex justify-center sm:justify-start">
+              <img
+                class="hidden sm:inline-block"
+                src="../Logo-button.png"
+                alt=""
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <p>© Copyright Finsweet 2022</p>
+          </li>
+          <li class="flex flex-col gap-[10px] items-center sm:items-start">
+            <p>(480) 555-0103</p>
+            <p>4517 Washington Ave.</p>
+            <p>finsweet@example.com</p>
+          </li>
+        </ul>
+
+        <ul
+          class="text-[12px] flex items-center flex-col gap-2 sm:items-start lg:gap-[35px]"
+        >
+          <p class="text-[16px]">Quicklinks</p>
+          <div class="flex flex-row gap-3 sm:flex-col lg:gap-[20px]">
+            <li>
+              <a
+                class="text-[12px] uppercase transition-colors hover:text-orange-500"
+                href="../pages/about-Us.html"
+                target="_blank"
+                >about us</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[12px] uppercase transition-colors hover:text-orange-500"
+                href="../pages/sermon.html"
+                target="_blank"
+                >seremons</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[12px] uppercase transition-colors hover:text-orange-500"
+                href="../pages/event.html"
+                target="_blank"
+                >events</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[12px] uppercase transition-colors hover:text-orange-500"
+                href="../pages/blog.html"
+                target="_blank"
+                >blog</a
+              >
+            </li>
+          </div>
+        </ul>
+
+        <div
+          class="flex gap-2 lg:gap-[30px] flex-col items-center lg:mr-25 sm:items-start"
+        >
+          <p class="text-[16px]">Connect</p>
+          <ul class="flex flex-row gap-[20px]">
+            <a href="#" class="text-[#FFD2A4] hover:text-white">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="text-[#FFD2A4] hover:text-white">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="text-[#FFD2A4] hover:text-white">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </ul>
+        </div>
+        <form action="https://echo.htmlacademy.ru"
+          class="flex flex-col gap-[43px] max-w-full col-span-full sm:col-span-2 w-full sm:max-w-[550px]"
+          method="post"
+        >
+          <h2 class="uppercase font-bold text-[32px] hidden lg:inline-block">
+            Subscribe to get Latest <br />Updates and News
+          </h2>
+          <div class="w-full lg:max-w-[600px] h-[64px] relative">
+            <input
+              class="border-1 outline-0 border-[#fff5] w-full h-full rounded-[12px] px-[18px] text-[16px]"
+              type="email"
+              name="email"
+              placeholder="youremail@gmail.com"
+              required
+            />
+            <button
+              class="absolute uppercase bg-[#ffd2a4] rounded-[12px] text-[#1c1d28] right-0 top-0 w-full max-w-[120px] xl:max-w-[201px] h-full flex justify-center items-center transition-colors duration-300 hover:text-orange-500"
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+</body>
+</html>
