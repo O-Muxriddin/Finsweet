@@ -28,13 +28,48 @@
                 Contact Us
             </a>
             </div>
-            <label for="toggler" class="flex items-center justify-center p-[6px_8px] bg-[#FFD2A4] text-[#1c1d28] text-[22px] lg:hidden rounded-sm">
-                <input type="checkbox" id="toggler" class="hidden" onclick="toggler(this)">
-                <span class="fa fa-bars"></span>
-            </label>
-            <label for="toggler" class="fixed w-full h-full top-0 left-0 transform-[translateY(-100%)] transition-all duration-500" id="togglerBg">
-                <div class="block bg-[#0d0d0d] opacity-[0.5] h-full w-full"></div>
-            </label>
+            
+            <label
+          for="bars"
+          class="absolute right-0 top-0 peer-checked:[&~.burger-menu]:translate-x-0 sm:relative lg:hidden"
+        >
+          <img src="../img/menu.png" alt="bars" width="50px" height="50px" class="pb-[10px]"/>
+        </label>
+        <input class="peer" type="checkbox" id="bars" hidden />
+        <label for="bars" class="peer-checked:block fixed inset-0 hidden"></label>
+        <div
+          class="burger-menu fixed top-0 left-0 w-[300px] peer-checked:shadow-2xl peer-checked:shadow-black peer-checked:translate-x-0 -translate-x-full h-screen bg-white flex flex-col gap-[30px] p-5 rounded-r-xl"
+        >
+          <nav class="flex flex-col gap-2.5">
+            <a
+              href="./index.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Home</a
+            >
+            <a
+              href="../pages/about-Us.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >About us</a
+            >
+            <a
+              href="../pages/sermon.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Sermon</a
+            >
+            <a
+              href="../pages/blog.html"
+              class="text-[20px] text-black font-bold active:border-b-red-500"
+              >Blog</a
+            >
+          </nav>
+
+          <a
+            href="../pages/contact.html"
+            class="text-[18px] text-black border-[#FFD2A4] pt-5 pb-5 pl-12 pr-12 bg-[#FFD2A4] border-2 rounded-xl"
+          >
+            Contact us
+          </a>
+        </div>
         </div>
      </header>
 
